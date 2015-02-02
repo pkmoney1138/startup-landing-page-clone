@@ -46,3 +46,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*My code starts here: 
+Temporary code to make b/g and divs visible*/
+
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+/*Navigation Section*/
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 1349px;
+	height: 70px;
+	margin: 0 auto;
+}
+
