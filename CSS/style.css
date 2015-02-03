@@ -63,8 +63,23 @@ div {
 }
 
 .top-navigation > .content {
-	width: 1349px;
+	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+.links {
+	float: right;
+}
+
+.links > li {
+	display: inline-block;
+}
+
+.logo {
+	height: 70px;
+}
