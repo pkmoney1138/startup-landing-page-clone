@@ -109,4 +109,11 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
-
+/* First Section */
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover; 
+    height: 45.938rem;
+ }
