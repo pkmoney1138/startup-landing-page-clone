@@ -59,6 +59,8 @@ Temporary code to make b/g and divs visible*/
 
 body {
 	background-color: LightGray;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -82,21 +84,21 @@ div {
 
 .top-navigation .logo {
 	height: 70px;
+	margin-left: 80px;
 }
 
 .top-navigation .links {
 	float: right;
-	font-family: "Roboto", sans-serif;
 	color: #838994;
-	font-size: 16px;
+	font-size: 17.5px;
 	margin-top: 25px;
-	letter-spacing: 0.03em;
-	-webkit-font-smoothing: antialiased;
+	margin-right: 85px;
+	letter-spacing: 0.02em;
 }
 
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 14px;
+	margin-left: 15px;
 	cursor: pointer;
 }
 
@@ -112,8 +114,55 @@ div {
 /* First Section */
 .introduction {
 	background-image: url(../images/first-background.jpg);
-	background-position: center bottom;
+	background-position: -125px -70px;
 	background-repeat: no-repeat;
 	background-size: cover; 
     height: 45.938rem;
+    overflow: auto;
+ }
+
+ .introduction .content {
+ 	margin: 0 auto;
+	width: 970px;
+	height: 70px;
+	
+	padding: 0 0.938rem;
+ }
+
+.introduction h1 {
+	margin-top: 13rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+ 	font-weight: 300;
+ } 
+
+ .big-button {
+ 	width: 9.688rem;
+ 	background-color: #f15a29;
+ 	border-color: #f15a29;
+ 	text-shadow: none;
+ 	border-style: none;
+ 	border-radius: 4px;
+ 	padding: 1rem 1.5rem;
+ 	display: block;
+ 	color: white;
+ 	font-size: 1.125rem;
+ 	margin: 0 auto;
+ 	margin-top: 1.5rem;
+ }
+
+ .big-button:hover {
+ 	background-color: #d9400e;
+ 	border-color: #cf3d0e;
+ 	cursor: pointer;
  }
