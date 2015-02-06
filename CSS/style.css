@@ -74,6 +74,9 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -185,8 +188,12 @@ div {
 }
 
 .cases .devices > li {
-	width: 33.33%;
+	width: 33.333333%;
 	float: left;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
 
 
