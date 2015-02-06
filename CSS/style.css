@@ -108,7 +108,7 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
-/* First Section */
+/* Introduction Section */
 .introduction {
 	background-image: url(../images/first-background.jpg);
 	background-position: center -350px;
@@ -163,3 +163,37 @@ div {
  	border-color: #cf3d0e;
  	cursor: pointer;
  }
+
+/* Cases Section */
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem; 
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .content {
+	margin-top: 7.785rem;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.cases .devices > li {
+	width: 33.33%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
