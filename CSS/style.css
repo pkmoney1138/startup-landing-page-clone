@@ -74,6 +74,9 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -84,22 +87,19 @@ div {
 
 .top-navigation .logo {
 	height: 70px;
-	margin-left: 80px;
 }
 
 .top-navigation .links {
 	float: right;
 	color: #838994;
-	font-size: 17.5px;
+	font-size: 16px;
 	margin-top: 25px;
-	margin-right: 85px;
 	letter-spacing: 0.02em;
 }
 
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 15px;
-	cursor: pointer;
+	margin-left: 25px;
 }
 
 .top-navigation .links .active {
@@ -111,10 +111,10 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
-/* First Section */
+/* Introduction Section */
 .introduction {
 	background-image: url(../images/first-background.jpg);
-	background-position: -125px -70px;
+	background-position: center -350px;
 	background-repeat: no-repeat;
 	background-size: cover; 
     height: 45.938rem;
@@ -125,7 +125,7 @@ div {
  	margin: 0 auto;
 	width: 970px;
 	height: 70px;
-	
+	min-width: 37.5rem;
 	padding: 0 0.938rem;
  }
 
@@ -166,3 +166,45 @@ div {
  	border-color: #cf3d0e;
  	cursor: pointer;
  }
+
+/* Cases Section */
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem; 
+	margin-top: -95px;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .content {
+	margin-top: 7.785rem;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.cases .devices > li {
+	width: 30%;
+	display: inline-block;
+	margin-right: -8px;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+
+
+}
+
+
+
+
+
+
+
+
+
