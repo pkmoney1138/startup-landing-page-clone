@@ -191,11 +191,12 @@ div {
 .cases .devices > li {
 	width: 30%;
 	display: inline-block;
+	margin-right: -8px;
 	/* styles to assist with debugging */
 	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
-	margin-right: -8px;
+
 
 }
 
