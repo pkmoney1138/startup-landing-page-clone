@@ -196,9 +196,50 @@ div {
 	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
-
-
 }
+
+/* Footer Section */
+.social {
+	background-color: #fff;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+
+
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	display: inline-block;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-facebook {
+	color: #4c66a4;
+}
+
+.fa-instagram {
+	color: #3f729b;
+}
+
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
+
 
 
 
