@@ -201,10 +201,10 @@ div {
 /* Footer Section */
 .social {
 	background-color: #fff;
-	overflow: auto;
 	padding-bottom: 9.375rem;
 	text-align: center;
 }
+
 
 .social hr {
 	border: 0;
@@ -212,44 +212,26 @@ div {
 	margin: 1.313rem 0;
 }
 
-hr {
-	-webkit-margin-before: 0.5em;
-	-webkit-margin-after: 0.5em;
-	-webkit-margin-start: auto;
-	-webkit-margin-end: auto;
-	border-style: inset;
-	border-width: 1px;
-}
-
 .social .icons > li {
 	border-radius: 1.25rem;
 	width: 2.5rem;
 	height: 2.5rem;
-	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
-	text-align: center;
+	display: inline-block;
 }
 
-.social .twitter {
+.fa-twitter {
 	color: #55acee;
 }
 
-.social .facebook {
+.fa-facebook {
 	color: #4c66a4;
 }
 
-.social .instagram {
+.fa-instagram {
 	color: #3f729b;
-}
-
-.fa {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
 }
 
 .social .copy {
