@@ -81,9 +81,9 @@ div {
 }
 
 .top-navigation > .content {
-	margin: 0 auto;
-	width: 970px;
+	width: 815px;
 	height: 70px;
+	margin: 0 auto;
 }
 
 .top-navigation .logo {
@@ -93,9 +93,8 @@ div {
 .top-navigation .links {
 	float: right;
 	color: #838994;
-	font-size: 1.04rem;
+	font-size: 16px;
 	margin-top: 25px;
-	letter-spacing: 0.02em;
 }
 
 .top-navigation .links li {
@@ -105,7 +104,7 @@ div {
 
 .top-navigation .links .active {
 	color: #4c5058;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .top-navigation .links li:hover {
@@ -127,7 +126,7 @@ div {
 	width: 970px;
 	height: 70px;
 	min-width: 600px;
-	padding: 0 15px;
+	
  }
 
 .introduction h1 {
