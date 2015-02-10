@@ -69,6 +69,8 @@ div {
 
 /* Custom Styles */
 .content {
+	width: 970px;
+	margin: 0 auto;
 	padding: 0 15px;
 }
 /* Navigation Section */
@@ -81,9 +83,8 @@ div {
 }
 
 .top-navigation > .content {
-	width: 815px;
 	height: 70px;
-	margin: 0 auto;
+	
 }
 
 .top-navigation .logo {
@@ -122,8 +123,6 @@ div {
  }
 
  .introduction .content {
- 	margin: 0 auto;
-	width: 970px;
 	height: 70px;
 	min-width: 600px;
 	
