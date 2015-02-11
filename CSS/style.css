@@ -173,21 +173,21 @@ div {
 	padding: 120px 80px;
 }
 
-.cases h2 {
+.cases .content h2 {
 	font-size: 44px;
 	font-weight: 300;
 	margin-bottom: 44px;
 }
 
-.devices {
-	width: 540px;
+.cases .content .devices {
+	width: 30%;
 	display: inline-block;
 	border: 1px solid black;
 	height: 64px;
 	margin-right: -4px;
 }
 
-.devices h3 {
+.cases .content .devices h3 {
 	font-weight: 400;
 	font-size: 25px;
 	margin: 40px 0px 30px;
