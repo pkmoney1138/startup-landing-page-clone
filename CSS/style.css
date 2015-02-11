@@ -167,33 +167,31 @@ div {
  }
 
 /* Cases Section */
-
 .cases {
+	text-align: center;
 	background-color: #fff;
-	overflow: hidden;
-	padding-bottom: 80px; 
+	padding: 120px 80px;
 }
 
 .cases h2 {
-	font-size: 2.75rem;
-	margin: 26px 0 50px;
+	font-size: 44px;
 	font-weight: 300;
+	margin-bottom: 44px;
 }
 
-.cases .content {
-	margin-top: 124.5px;
-	color: #1d1e21;
-	text-align: center;
-}
-
-.cases .devices > li {
-	width: 30%;
+.devices {
+	width: 540px;
 	display: inline-block;
-	margin-right: -8px;
-	/* styles to assist with debugging */
 	border: 1px solid black;
-	box-sizing: border-box;
 	height: 64px;
+	margin-right: -4px;
+}
+
+.devices h3 {
+	font-weight: 400;
+	font-size: 25px;
+	margin: 40px 0px 30px;
+
 }
 
 /* Footer Section */
@@ -205,7 +203,6 @@ div {
 
 
 .social hr {
-	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 21px 0;
 }
